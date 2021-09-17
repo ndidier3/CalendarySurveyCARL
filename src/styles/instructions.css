@@ -1,0 +1,19 @@
+body {
+    background: #96c4bb ;
+    font-family: Verdana, sans-serif;
+    
+  }
+.header {
+    color: black;
+    padding: 0;
+    text-align: left;
+  }
+
+.instruction-text {
+    width: auto;
+    list-style-type: none;
+}
+
+.instruction-details {
+    margin-left: 60px;
+}

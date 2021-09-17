@@ -1,0 +1,70 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibl"label-day-content="IE=edg"label-day-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Document</title
+    >
+    <link rel="stylesheet" href="instructions.css">
+    
+</head>
+<body>
+        <h1 class="header">Calendar Survey Instructions</h1>
+        <hr size="4" width="100%" color="black">  
+    <ul class="instruction-text">
+        <li>
+            
+            On days that you drank alcohol or smoked cigarettes, enter the number of alcohol drinks consumed or cigarettes smoked
+            <br>
+            <br>
+            IMPORTANT: We want to record your drinking and smoking on the calendar using standard drinks and cigarettes
+            <br>
+            <br>
+            
+        </li>
+        <li>
+            <b>1 Standard Drink = 12 oz beer, 1.5 oz liquor, 5 oz wine</b>  
+            <br>
+            <i>For example: If you had 6 beers, you would enter ‘6’; if you drank two or more different kinds of alcohol in a day, such as 2 beers and 3 glasses of wine, you would enter a ‘5’ on that day. </i>
+            <br>
+            <br>
+            <b>1 Cigarette = 1 puff up to an entire cigarette </b>  
+            <br>
+            <i>For example: If you smoked 6 cigarettes, you would enter ‘6’; if you smoked 9 cigarettes and had a puff of a friend's cigarette, you would enter a ‘10’ on that day.</i>
+            <br>
+            <br>
+            <br>
+        </li>
+        <li padding-left="50px">
+        <label for="alcPast5Weeks"><i>Have you consumed any alcohol in the past 5 weeks?</i></label>
+
+        <select name="alcPast5Weeks" id="alcPast5Weeks" oninput="storeKeyForPast5Check('alcPast5Weeks', 'alcPast5Weeks')">
+            <option value="Na"></option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br><br>
+        </li>
+        <li>
+            <label for="cigPast5Weeks"><i>Have you smoked any cigarettes (even a puff) in the past 5 weeks?</i></label>
+
+        <select name="cigPast5Weeks" id="cigPast5Weeks" oninput="storeKeyForPast5Check('cigPast5Weeks', 'cigPast5Weeks')">
+          <option value="Na"></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        </li>
+        
+         </ul>
+    <br>
+    <button
+         onclick="nextWindow('event-calendar.html')"
+         class="login-button"
+         id="login-button"
+         type="button"
+         >
+         Continue
+    </button>
+    <script src="commonFunctions.js"></script>
+    <script src="preCalendarFunctions.js"></script>
+</body> 

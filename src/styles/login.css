@@ -1,0 +1,21 @@
+body {
+    background: #96c4bb ;
+    font-family: Verdana, sans-serif;
+    
+  }
+.header {
+    color: black;
+    padding: 0;
+    text-align: left;
+  }
+  
+.login-list { 
+    margin: 0; 
+    padding-left: 40px; 
+    list-style-type: none; 
+    text-align: left
+}
+
+.login-button {
+    margin: 20px 0px 30px 40px;
+}

@@ -1,0 +1,309 @@
+ul {list-style-type: none;}
+body {
+  background: #1abc9c ;
+  font-family: Verdana, sans-serif;
+  
+}
+.header {
+  color: black;
+  padding: 0;
+  text-align: left;
+}
+
+/* Month header */
+.month {
+  padding: 0 0 0 0;
+  width: 100%;
+  background: #1abc9c;
+  text-align: right;
+}
+
+.heading-list {
+  list-style-type: none;
+  margin-left:0px;
+  padding:0px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: Arial;
+}
+
+.heading-list img {
+  align-items: flex-start;
+  object-fit: cover;
+  padding-left: 25px;
+  
+  
+}
+.subheader {
+  text-align: left; 
+  display:flex;
+  padding-top: 30px;
+  }
+
+/* Month list */
+.month ul {
+  margin: 0;
+  
+}
+
+.month ul li {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: list-item;
+  font-weight: normal;
+}
+
+.cal-instructions {
+  text-align: left;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  max-width: 1000px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #eee;
+  font-size: 10px;
+}
+
+
+.calendar {
+  border:3px solid #000;
+  border-radius: 5px;
+  max-width: 1600px;
+  min-width: 1200px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 10px;
+  background-color:#ddd;
+  display: flex;
+  border-bottom:1px solid #000;
+}
+
+.weekdays li {
+  margin-left: 75px;
+  margin-right: auto;
+  color: #666;
+}
+
+/* Days (1-31) */
+
+.dates {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+}
+
+.dates li {
+  list-style-type: none;
+  text-align: center;
+  height: 10px;
+  width: 200px;
+
+  
+}
+
+.week1 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(153, 147, 147, 0.788);
+}
+
+.week1 li {
+  list-style-type: none;
+  color: #777;
+  height: 30px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+}
+
+.week2 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(153, 147, 147, 0.788);
+}
+
+.week2 li {
+  list-style-type: none;
+  color: #777;
+  height: 40px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+}
+
+.week3 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(153, 147, 147, 0.788);
+  
+}
+
+.week3 li {
+  list-style-type: none;
+  color: #777;
+  height: 40px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+}
+
+.week4 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(153, 147, 147, 0.788);
+}
+
+.week4 li {
+  list-style-type: none;
+  color: #777;
+  height: 40px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+}
+.week5 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(153, 147, 147, 0.788);
+}
+
+.week5 li {
+  list-style-type: #ddd;
+  color: #777;
+  height: 40px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+}
+
+
+.week6 {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.week6 li {
+  list-style-type: none;
+  color: #777;
+  height: 40px;
+  width: 200px;
+  margin: 15px 15px 15px 0px;
+  
+  
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+  border: 10px dashed #000
+}
+
+.date-label {
+  display: inline-block;
+  font-size: 13px;
+  width: 120px;
+  margin-top: 0.7%;
+  margin-right: 8%;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+  color:rgb(11, 15, 207);
+  width: 120px;
+  margin-top: 0%;
+  text-align: start;
+}
+
+.date-input {
+  font-size: 15px;
+  width: 40px;
+  height: 30px;
+}
+
+.submit {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-right: 25px;
+  color: rgba(243, 247, 247, 0.959);
+  border: none;
+  background-color: #464daf;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+ 
+}
+
+.submit:hover {
+  background-color: white;
+  color: rgb(28, 58, 194);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 5px;
+}
+
+a:hover {
+  background-color: rgb(11, 15, 207);
+  color: rgb(248, 245, 245);
+  border-radius: 5px;
+}
+
+.abbreviations {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  width: 850px;
+  margin-top: 0px;
+  background-color: rgb(234, 253, 228);
+}
+
+.abbreviation-sublist {
+  display: flex;
+}
+.abbreviation-sublist li {
+  width: 400px;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.subcalendar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1560px;
+  padding-top: 10px;
+}

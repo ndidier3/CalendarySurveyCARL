@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibl"label-day-content="IE=edg"label-day-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Document</title
+    >
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <h1 class="header">Calendar Survey</h1>
+  <div class="month">
+    <ul>
+      <li class="subheader" id="subheader">4. Confirm the calendar information is accurate</li>
+    </ul>
+    
+</div>
+<div class="calendar">
+  <ul class="weekdays">
+    <li><b>Sun</b></li>
+    <li><b>Mon</b></li>
+    <li><b>Tues</b></li>
+    <li><b>Wed</b></li>
+    <li><b>Thur</b></li>
+    <li><b>Fri</b></li>
+    <li><b>Sat</b></li>
+  </ul>
+  <ul id="week1-dates" class="dates">
+    <li>
+    <label 
+      class="date-label" 
+      id="label-date-1" 
+      for="day-1"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-2" 
+      for="day-2"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-3" 
+      for="day-3"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-4" 
+      for="day-4"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-5" 
+      for="day-5"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-6" 
+      for="day-6"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-7" 
+      for="day-7"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+
+  </ul>
+  <ul class="week1">
+    <label 
+      class="input-label" 
+      id="label-day-1" 
+      for="day-1"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-1" 
+        name="day-1" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-2" 
+      for="day-2"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-2" 
+        name="day-2" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-3" 
+      for="day-3"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-3" 
+        name="day-3" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"  
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-4" 
+      for="day-4"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-4" 
+        name="day-4" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-5" 
+      for="day-5"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-5" 
+        name="day-5" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-6" 
+      for="day-6"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input
+        type="text" 
+        id="day-6" 
+        name="day-6" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-7" 
+      for="day-7"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-7" 
+        name="day-7" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+
+  </ul>
+  <ul id="week2-dates" class="dates">
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-8" 
+      for="day-8"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-9" 
+      for="day-9"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-10"
+      for="day-10"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-11"
+        for="day-11"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-12"
+        for="day-12"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-13"
+      for="day-13"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-14"
+      for="day-14"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+  </ul>
+  <ul class="week2">
+    <label 
+      class="input-label" 
+      id="label-day-8" 
+      for="day-8"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-8" 
+        name="day-8" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-9" 
+      for="day-9"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-9" 
+        name="day-9" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-10"
+      for="day-10"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-10"
+        name="day-10" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-11"
+        for="day-11"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-11"
+        name="day-11" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-12"
+        for="day-12"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-12"
+        name="day-12" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-13"
+      for="day-13"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-13"
+        name="day-13" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-14"
+      for="day-14"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-14"
+        name="day-14" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+  </ul>
+  <ul id="week3-dates" class="dates">
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-15" 
+      for="day-15"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-16" 
+      for="day-16"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-17"
+      for="day-17"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-18"
+        for="day-18"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-19"
+        for="day-19"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-20"
+      for="day-20"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-21"
+      for="day-21"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+  </ul>
+  <ul class="week3">
+    <label 
+      class="input-label" 
+      id="label-day-15" 
+      for="day-15"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-15" 
+        name="day-15" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-16" 
+      for="day-16"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-16" 
+        name="day-16" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-17"
+      for="day-17"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-17"
+        name="day-17" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-18"
+        for="day-18"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-18"
+        name="day-18" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-19"
+        for="day-19"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-19"
+        name="day-19" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-20"
+      for="day-20"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-20"
+        name="day-20" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-21"
+      for="day-21"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-21"
+        name="day-21" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+  </ul>
+  <ul id="week4-dates" class="dates">
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-22" 
+      for="day-22"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-23" 
+      for="day-23"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-24"
+      for="day-24"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-25"
+        for="day-25"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-26"
+        for="day-26"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-27"
+      for="day-27"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-28"
+      for="day-28"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+  </ul>
+  <ul class="week4">
+    <label 
+      class="input-label" 
+      id="label-day-22" 
+      for="day-22"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-22" 
+        name="day-22" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-23" 
+      for="day-23"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-23" 
+        name="day-23" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-24"
+      for="day-24"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-24"
+        name="day-24" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-25"
+        for="day-25"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-25"
+        name="day-25" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-26"
+        for="day-26"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-26"
+        name="day-26" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-27"
+      for="day-27"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-27"
+        name="day-27" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-28"
+      for="day-28"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-28"
+        name="day-28" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+  </ul>
+  <ul id="week5-dates" class="dates">
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-29" 
+      for="day-29"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-30" 
+      for="day-30"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-31"
+      for="day-31"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-32"
+        for="day-32"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-33"
+        for="day-33"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-34"
+      for="day-34"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-35"
+      for="day-35"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+  </ul>   
+  <ul class="week5">
+    <label 
+      class="input-label" 
+      id="label-day-29" 
+      for="day-29"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-29" 
+        name="day-29" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-30" 
+      for="day-30"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-30" 
+        name="day-30" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-31"
+      for="day-31"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-31"
+        name="day-31" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-32"
+        for="day-32"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-32"
+        name="day-32" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-33"
+        for="day-33"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-33"
+        name="day-33" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-34"
+      for="day-34"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-34"
+        name="day-34" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-35"
+      for="day-35"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-35"
+        name="day-35" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+  </ul>
+  <ul id="week6-dates" class="dates">
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-36" 
+      for="day-36"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-37" 
+      for="day-37"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-38"
+      for="day-38"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-39"
+        for="day-39"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-40"
+        for="day-40"
+      >
+        <b>Date</b>
+    </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-41"
+      for="day-41"
+    >
+        <b>Date</b>
+      </label>
+    </li>
+    
+    <li>
+      <label 
+      class="date-label" 
+      id="label-date-42"
+      for="day-42"
+    >
+      <b>Date</b>
+    </label>
+    </li>
+  </ul>
+  <ul class="week6">
+    <label 
+      class="input-label" 
+      id="label-day-36" 
+      for="day-36"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-36" 
+        name="day-36" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-37" 
+      for="day-37"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-37" 
+        name="day-37" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-38"
+      for="day-38"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-38"
+        name="day-38" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-39"
+        for="day-39"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-39"
+        name="day-39" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-40"
+        for="day-40"
+      >
+        <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-40"
+        name="day-40" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-41"
+      for="day-41"
+    >
+        <b></b>
+      </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-41"
+        name="day-41" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+    <label 
+      class="input-label" 
+      id="label-day-42"
+      for="day-42"
+    >
+      <b></b>
+    </label>
+    <li>
+      <input 
+        type="text" 
+        id="day-42"
+        name="day-42" 
+        class="date-input"
+        oninput="storeData(formattedMonth, 'keyForCigIndices', 'keyForCigData', 'cigPast5Weeks')"
+      >
+    </li>
+  </ul>
+</div>
+<ul>
+  <ul>
+    <a href="second-calendar.html" class="previous">&laquo; Previous</a>
+    <button
+        onclick="nextWindow('final-review.html')"
+        class="submit"
+        id="submit-button"
+        type="button"
+        >
+        Final Submit
+    </button>
+  
+  
+  </ul>
+  <script src="calendarFunctions.js"></script>
+  <script type = "text/javascript">  
+        try {
+            addLabel("keyForEventIndices", "keyForEvents")
+            addLabel("keyForDrinkIndices", "keyForDrinkData", " drinks")
+            addLabel("keyForCigIndices", "keyForCigData", " cigs")
+            addGrayToNonLabeledDates(formattedMonth)
+        } catch (error) {
+          console.error(error)
+        }
+        formatReview(formattedMonth)
+  </script>
+
+</body>
+</html>

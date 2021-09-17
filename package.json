@@ -1,0 +1,21 @@
+{
+  "name": "otlfb_project",
+  "version": "1.0.0",
+  "description": "OTLFB development with Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "babel src -d lib",
+    "compile": "babel src --out-dir .compiled --source-maps --watch"
+  },
+  "author": "Didier",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

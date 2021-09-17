@@ -1,0 +1,61 @@
+you have local repository with multiple branches
+
+you have a remote repository with multiple branches (online on github)
+
+you work locally, and push to cloud to keep backups (verions)
+
+
+branches are near-copies of the same repository 
+
+a development branch contains your ongoing work. It might be untested or broken, or be exploring features you aren't sure about yet
+
+the main branch only has completed, tested code that you know won't break
+
+
+when you want to make a new branch to test out some new stuff or build something new,
+
+use terminal command "git checkout -b name-of-branch"
+
+this creates a copy of the branch you're on and gives it a new name. All changes are saved to the new branch though 
+
+if you want to go back to the original branch, enter terminal command 
+  "git checkout name-of-original"
+
+However, you need to be careful about commits. 
+
+Commit your changes before leaving a branch. Uncommitted changes follow you back into any new branch. They only become a permanent staple of a project codebase after being committed 
+ 
+to commit a change, first add it to git tracking with  
+ 
+"git add filename" 
+
+then commit the changes with  
+
+"git commit -m "commit message explaining what you did""
+
+For example, dont write a bunch of code in the development branch, forget to commit something, and then switch back to master. You might end up committing something you didn't want to 
+
+
+When you're happy with the state of the development branch you can merge it back into the main branch
+
+first, make sure you have a remote copy of the development branch remotely before merging back in. When your changes are commmitted, use:
+
+"git push" -- this will send everything up to github
+
+Next switch to the main or master branch (whatever it's called)
+
+"git checkout main" 
+
+now pull from the remote repository to make sure all changes are up to date in the view of that branch
+
+"git pull"
+
+Now merge the development branch into main    
+
+"git merge development" 
+
+DONE  
+
+Now, checkout a new branch for your next development effort    
+
+"git checkout -b new-feature"   
